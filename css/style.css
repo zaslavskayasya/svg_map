@@ -39,12 +39,12 @@
   display: block;
   position: absolute;
   top: -35px;
-  left: 10px;
+  left: 8px;
 }
 
 .odesa {
   top: 56%;
-  right: 33.5%;
+  right: 32.5%;
 }
 .odesa:after {
   content: url("../assets/images/clarity_map-marker-solid.svg");
