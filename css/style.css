@@ -1,0 +1,172 @@
+.container {
+  max-width: 1024px;
+  margin-right: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.map-wrap {
+  width: 100%;
+  position: relative;
+}
+.map-wrap svg.map-image {
+  width: 100%;
+}
+
+.city-names {
+  cursor: pointer;
+  position: absolute;
+  font-family: "Helios";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 16px;
+  /* identical to box height */
+  transition: all ease-in 0.3s;
+  text-transform: uppercase;
+  color: #272C47;
+}
+.city-names:hover {
+  transform: scale(1.1);
+}
+
+.harkiv {
+  top: 30%;
+  right: 16.5%;
+}
+.harkiv:after {
+  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 10px;
+}
+
+.odesa {
+  top: 56%;
+  right: 33.5%;
+}
+.odesa:after {
+  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  display: block;
+  position: absolute;
+  bottom: -35px;
+  left: 10px;
+}
+
+.chornomorsk {
+  top: 71%;
+  right: 26.5%;
+}
+.chornomorsk:after {
+  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: -10px;
+}
+
+.kisheneu {
+  top: 63%;
+  right: 40%;
+}
+.kisheneu:after {
+  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 20px;
+}
+
+.krakiv {
+  top: 49%;
+  left: 28%;
+}
+.krakiv:after {
+  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 10px;
+}
+
+@media screen and (max-width: 1070px) {
+  .city-names {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .city-names {
+    font-size: 14px;
+  }
+  .kisheneu {
+    top: 63%;
+    right: 42%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .chornomorsk {
+    top: 72%;
+    right: 26%;
+  }
+  .chornomorsk:after {
+    top: -31px;
+    left: -5px;
+  }
+  .odesa {
+    top: 52%;
+    right: 32.5%;
+  }
+  .odesa:after {
+    left: 7px;
+  }
+  .chornomorsk {
+    top: 73%;
+    right: 25%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .chornomorsk {
+    top: 77%;
+    right: 21%;
+  }
+  .odesa {
+    top: 44%;
+    right: 33.5%;
+  }
+  .city-names {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kisheneu {
+    top: 60%;
+    right: 44%;
+  }
+  .kisheneu:after {
+    top: -31px;
+    left: 25px;
+  }
+  .odesa {
+    top: 39%;
+    right: 29.5%;
+  }
+  .odesa:after {
+    left: -4px;
+    bottom: -31px;
+  }
+  .chornomorsk:after {
+    top: -28px;
+    left: 1px;
+  }
+  .chornomorsk {
+    top: 68%;
+    right: 23%;
+  }
+}
+@font-face {
+  font-family: "Helios";
+  src: url("/assets/fonts/HeliosCond.woff") format("woff"), url("/assets/fonts/HeliosCond.ttf") format("ttf");
+}
+
+/*# sourceMappingURL=style.css.map */
