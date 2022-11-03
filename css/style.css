@@ -35,7 +35,7 @@
   right: 16.5%;
 }
 .harkiv:after {
-  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  content: url("../assets/images/clarity_map-marker-solid.svg");
   display: block;
   position: absolute;
   top: -35px;
@@ -47,7 +47,7 @@
   right: 33.5%;
 }
 .odesa:after {
-  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  content: url("../assets/images/clarity_map-marker-solid.svg");
   display: block;
   position: absolute;
   bottom: -35px;
@@ -59,7 +59,7 @@
   right: 26.5%;
 }
 .chornomorsk:after {
-  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  content: url("../assets/images/clarity_map-marker-solid.svg");
   display: block;
   position: absolute;
   top: -35px;
@@ -71,7 +71,7 @@
   right: 40%;
 }
 .kisheneu:after {
-  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  content: url("../assets/images/clarity_map-marker-solid.svg");
   display: block;
   position: absolute;
   top: -35px;
@@ -83,7 +83,7 @@
   left: 28%;
 }
 .krakiv:after {
-  content: url("../../assets/images/clarity_map-marker-solid.svg");
+  content: url("../assets/images/clarity_map-marker-solid.svg");
   display: block;
   position: absolute;
   top: -35px;
@@ -166,7 +166,7 @@
 }
 @font-face {
   font-family: "Helios";
-  src: url("/assets/fonts/HeliosCond.woff") format("woff"), url("/assets/fonts/HeliosCond.ttf") format("ttf");
+  src: url("../assets/fonts/HeliosCond.woff") format("woff"), url("../assets/fonts/HeliosCond.ttf") format("ttf");
 }
 
 /*# sourceMappingURL=style.css.map */
