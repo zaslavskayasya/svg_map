@@ -78,6 +78,18 @@
   left: 20px;
 }
 
+.galac{
+  top: 78%;
+  right: 42%;
+}
+.galac:after {
+  content: url("../assets/images/clarity_map-marker-solid.svg");
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 9px;
+}
+
 .krakiv {
   top: 49%;
   left: 28%;
@@ -124,6 +136,14 @@
     top: 73%;
     right: 25%;
   }
+  .galac {
+    top: 80%;
+    right: 40%;
+  }
+  .galac:after {
+    left: 2px;
+    top: -29px
+  }
 }
 @media screen and (max-width: 500px) {
   .chornomorsk {
@@ -162,6 +182,14 @@
   .chornomorsk {
     top: 68%;
     right: 23%;
+  }
+  .galac:after {
+    left: 28px;
+    top: -12px;
+  }
+  .galac {
+    top: 80%;
+    right: 44%;
   }
 }
 @font-face {
